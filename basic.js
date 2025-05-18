@@ -1,15 +1,19 @@
 const ctx = document.getElementById('myChart').getContext('2d');
-new Chart(ctx, {
+const myChart = new Chart(ctx, {
   type: 'bar',
   data: {
-    labels: ['Red', 'Blue', 'Yellow'],
+    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
     datasets: [{
-      label: 'Votes',
-      data: [12, 19, 3],
-      backgroundColor: ['red', 'blue', 'yellow']
+      label: 'My First Dataset',
+      data: [65, 59, 80, 81, 56, 55, 40],
+      backgroundColor: 'rgba(255, 99, 132, 0.2)',
+      borderColor: 'rgb(255, 99, 132)',
+      borderWidth: 1
     }]
   },
   options: {
-    responsive: true
+    scales: {
+      y: { beginAtZero: true }
+    }
   }
 });
