@@ -35,7 +35,7 @@ const data = {
     type: 'radar',
     data: data,
     options: {
-    //   responsive: false,
+        responsive: false,
       elements: {
         line: {
           borderWidth: 3
