@@ -41,7 +41,7 @@ const config = {
       x: {
         title: {
           display: true,
-          text: 'X Axis'
+          text: 'X Axis Name'
         },
         beginAtZero: true,
         min: 0,
@@ -50,7 +50,7 @@ const config = {
       y: {
         title: {
           display: true,
-          text: 'Y Axis'
+          text: 'Y Axis Name'
         },
         beginAtZero: true,
         min: 0,
