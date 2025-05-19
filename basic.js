@@ -1,5 +1,5 @@
-const ctx = document.getElementById('myChart').getContext('2d');
-const myChart = new Chart(ctx, {
+const ctx = document.getElementById('basicChart').getContext('2d');
+const basicChart = new Chart(ctx, {
   type: 'bar',
   data: {
     labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],

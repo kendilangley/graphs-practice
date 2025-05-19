@@ -1,4 +1,4 @@
-const ctx = document.getElementById('myChart').getContext('2d');
+const ctx = document.getElementById('bubbleChart').getContext('2d');
 
 const data = {
   datasets: [{
