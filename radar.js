@@ -1,12 +1,7 @@
+const ctx = document.getElementById('myChart');
+
 const data = {
-    labels: [
-      'Eating',
-      'Drinking',
-      'Sleeping',
-      'Designing',
-      'Coding',
-      'Cycling',
-      'Running'
+    labels: ['Eating','Drinking','Sleeping','Designing','Coding','Cycling','Running'
     ],
     datasets: [{
       label: 'My First Dataset',
@@ -43,6 +38,4 @@ const data = {
     },
   };
   
-  const ctx = document.getElementById('myChart');
-  new Chart(ctx, config);
-  
+new Chart(ctx, config);
